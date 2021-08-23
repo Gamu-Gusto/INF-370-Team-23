@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Artech_API_370.Controllers.ArtClassesControllers
 {
-    [Route("api/[controller]")]
+    [Route("api/ArtClassType")]
     [ApiController]
     public class ArtClassTypeController : ControllerBase
     {
