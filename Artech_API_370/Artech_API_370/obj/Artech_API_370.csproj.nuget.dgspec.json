@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2021 Coding\\370 PROJECT\\FINAL API\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
+    "C:\\Users\\Reinhardt Smit\\Source\\Repos\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
   },
   "projects": {
-    "C:\\2021 Coding\\370 PROJECT\\FINAL API\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
+    "C:\\Users\\Reinhardt Smit\\Source\\Repos\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2021 Coding\\370 PROJECT\\FINAL API\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "projectUniqueName": "C:\\Users\\Reinhardt Smit\\Source\\Repos\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
         "projectName": "Artech_API_370",
-        "projectPath": "C:\\2021 Coding\\370 PROJECT\\FINAL API\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "projectPath": "C:\\Users\\Reinhardt Smit\\Source\\Repos\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
         "packagesPath": "C:\\Users\\Reinhardt Smit\\.nuget\\packages\\",
-        "outputPath": "C:\\2021 Coding\\370 PROJECT\\FINAL API\\Artech_API_370\\Artech_API_370\\obj\\",
+        "outputPath": "C:\\Users\\Reinhardt Smit\\Source\\Repos\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Reinhardt Smit\\AppData\\Roaming\\NuGet\\NuGet.Config",
