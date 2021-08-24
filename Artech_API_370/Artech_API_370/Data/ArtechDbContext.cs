@@ -24,5 +24,7 @@ namespace Artech_API_370.Data
         // Artist 
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
 
+        // Artworks
+
     }
 }
