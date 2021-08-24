@@ -1,5 +1,6 @@
 ﻿using Artech_API_370.Entities.ArtClasses;
 using Artech_API_370.Entities.Artists;
+using Artech_API_370.Entities.Artworks;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,7 @@ namespace Artech_API_370.Data
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
 
         // Artworks
-
+        public DbSet<SurfaceType> SurfaceType { get; set; }
+        public DbSet<MediumType> MediumType { get; set; }
     }
 }
