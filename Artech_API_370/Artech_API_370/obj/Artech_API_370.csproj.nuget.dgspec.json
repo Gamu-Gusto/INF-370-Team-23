@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gamu Gusto\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
+    "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gamu Gusto\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
+    "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gamu Gusto\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "projectUniqueName": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
         "projectName": "Artech_API_370",
-        "projectPath": "C:\\Users\\Gamu Gusto\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
-        "packagesPath": "C:\\Users\\Gamu Gusto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gamu Gusto\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
+        "projectPath": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "packagesPath": "C:\\Users\\Reinhardt Smit\\.nuget\\packages\\",
+        "outputPath": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Gamu Gusto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reinhardt Smit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
