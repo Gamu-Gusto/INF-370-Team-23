@@ -48,5 +48,7 @@ namespace Artech_API_370.Data
         public DbSet<ExhibitionAnnouncement> ExhibitionAnnouncement { get; set; }
         public DbSet<ExhibitionApplication> ExhibitionApplication { get; set; }
         public DbSet<ApplicationStatus> ApplicationStatus { get; set; }
+
+        // User
     }
 }
