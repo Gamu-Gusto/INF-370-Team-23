@@ -29,6 +29,7 @@ namespace Artech_API_370.Data
         public DbSet<Feedback> Feedback { get; set; }
 
         // Artist 
+        public DbSet<Invitation> Invitation { get; set; }
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
 
         // Artworks
