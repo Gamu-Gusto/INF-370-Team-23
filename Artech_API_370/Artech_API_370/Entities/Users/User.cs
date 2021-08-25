@@ -24,5 +24,15 @@ namespace Artech_API_370.Entities.Users
         public int UserPostalCode { get; set; }
         public string ArtistBio { get; set; }
 
+        // public string token { get; set; }
+
+        [ForeignKey("UserTypeID")]
+        public int UserTypeID { get; set; }
+        public UserType UserType { get; set; }
+
+        [ForeignKey("SuburbID")]
+        public int SuburbID { get; set; }
+        public Suburb Suburb { get; set; }
+
     }
 }
