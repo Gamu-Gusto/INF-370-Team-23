@@ -26,6 +26,7 @@ namespace Artech_API_370.Data
         public DbSet<TeacherType> TeacherType { get; set; }
         public DbSet<ClassTeacher> ClassTeacher { get; set; }
         public DbSet<ArtClassAnnouncement> ArtClassAnnouncement { get; set; }
+        public DbSet<Feedback> Feedback { get; set; }
 
         // Artist 
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
