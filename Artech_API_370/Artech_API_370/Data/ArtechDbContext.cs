@@ -1,6 +1,9 @@
-﻿using Artech_API_370.Entities.ArtClasses;
+﻿using Artech_API_370.Entities;
+using Artech_API_370.Entities.ArtClasses;
 using Artech_API_370.Entities.Artists;
 using Artech_API_370.Entities.Artworks;
+using Artech_API_370.Entities.Exhibitions;
+using Artech_API_370.Exhibitions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -30,5 +33,16 @@ namespace Artech_API_370.Data
         public DbSet<MediumType> MediumType { get; set; }
         public DbSet<FrameColour> FrameColour { get; set; }
         public DbSet<ArtworkType> ArtworkType { get; set; }
+
+        // Exhibition
+        public DbSet<Exhibition> Exhibition { get; set; }
+        public DbSet<ExhibitionType> ExhibitionType { get; set; }
+        public DbSet<Schedule> Schedule { get; set; }
+        public DbSet<ScheduleType> ScheduleType { get; set; }
+        public DbSet<Organisation> Organisation { get; set; }
+        public DbSet<Venue> Venue { get; set; }
+        public DbSet<ExhibitionAnnouncement> ExhibitionAnnouncement { get; set; }
+        public DbSet<ExhibitionApplication> ExhibitionApplication { get; set; }
+        public DbSet<ApplicationStatus> ApplicationStatus { get; set; }
     }
 }
