@@ -21,6 +21,7 @@ namespace Artech_API_370.Data
         }
 
         // Art Classes
+        public DbSet<ArtClass> ArtClasse { get; set; }
         public DbSet<ArtClassType> ArtClassType { get; set; }
         public DbSet<TeacherType> TeacherType { get; set; }
         public DbSet<ClassTeacher> ClassTeacher { get; set; }
