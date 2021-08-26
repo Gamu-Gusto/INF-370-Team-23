@@ -3,6 +3,7 @@ using Artech_API_370.Entities.ArtClasses;
 using Artech_API_370.Entities.Artists;
 using Artech_API_370.Entities.Artworks;
 using Artech_API_370.Entities.Exhibitions;
+using Artech_API_370.Entities.Users;
 using Artech_API_370.Exhibitions;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -49,7 +50,14 @@ namespace Artech_API_370.Data
         public DbSet<ExhibitionApplication> ExhibitionApplication { get; set; }
         public DbSet<ApplicationStatus> ApplicationStatus { get; set; }
 
-        
-    //Users
+
+        //Users
+        public DbSet<User> User { get; set; }
+        public DbSet<UserType> UserType { get; set; }
+        public DbSet<Suburb> Suburb { get; set; }
+        public DbSet<City> City { get; set; }
+        public DbSet<Province> Province { get; set; }
+        public DbSet<Country> Country { get; set; }
+        public DbSet<Privileges> Privileges { get; set; }
     }
 }
