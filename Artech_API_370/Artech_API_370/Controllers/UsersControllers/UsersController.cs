@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace Artech_API_370.Controllers.UsersControllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("api/Users")]
+    
     public class UsersController : ControllerBase
     {
         private readonly IAppRepository<User> _appRepository;

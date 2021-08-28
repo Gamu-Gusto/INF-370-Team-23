@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 
 namespace Artech_API_370.Controllers.UsersControllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("api/Country")]
+    
     public class CountryController : Controller
     {
         private readonly IAppRepository<Country> _appRepository;
