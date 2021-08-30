@@ -5,6 +5,7 @@ using Artech_API_370.Entities.Artworks;
 using Artech_API_370.Entities.Exhibitions;
 using Artech_API_370.Entities.Users;
 using Artech_API_370.Exhibitions;
+using BinaryBrainsAPI.Entities.Bookings;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -62,5 +63,9 @@ namespace Artech_API_370.Data
         public DbSet<Province> Province { get; set; }
         public DbSet<Country> Country { get; set; }
         public DbSet<Privileges> Privileges { get; set; }
+
+        // Bookings
+        public DbSet<Booking> Booking { get; set; }
+        public DbSet<BookingNotification> BookingNotification { get; set; }
     }
 }
