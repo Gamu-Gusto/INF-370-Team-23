@@ -1,9 +1,6 @@
 ﻿using Artech_API_370.Dtos.ExhibitionDtos;
-using BinaryBrainsAPI.Dtos.ExhibitionDtos;
+using Artech_API_370.Dtos.ImageDtos;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Artech_API_370.Dtos
 {
@@ -19,8 +16,6 @@ namespace Artech_API_370.Dtos
 
         public DateTime ExhibitionTime { get; set; }
 
-        public string Exhibition_Image { get; set; }
-
         public int ExhibitionTypeID { get; set; }
         public ExhibitionTypeDto ExhibitionType { get; set; }
 
@@ -30,10 +25,9 @@ namespace Artech_API_370.Dtos
         public int OrganisationID { get; set; }
         public OrganisationDto Organisation { get; set; }
 
-        public int ExhibitionAnnouncementID { get; set; }
-        public ExhibitionAnnouncementDto ExhibitionAnnouncement { get; set; }
-
         public int VenueID { get; set; }
         public VenueDto Venue { get; set; }
+        public int ImageID { get; set; }
+        public ImagesDto Images { get; set; }
     }
 }

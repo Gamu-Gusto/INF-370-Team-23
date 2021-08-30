@@ -20,6 +20,8 @@ namespace Artech_API_370.Dtos.UsersDtos
         public int UserPostalCode { get; set; }
         public string UserProfilePicture { get; set; }
 
+        public string ArtistBio { get; set; }
+
         public int UserTypeID { get; set; }
         public UserTypeDto UserType { get; set; }
 

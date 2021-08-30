@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Artech_API_370.Dtos.ImageDtos;
+using Artech_API_370.Dtos.UsersDtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -21,5 +23,14 @@ namespace Artech_API_370.Dtos.ArtworksDtos
         public FrameColourDto FrameColour { get; set; }
         public int ArtworkDimensionID { get; set; }
         public ArtworkDimensionDto ArtworkDimension { get; set; }
+
+        public int ImageID { get; set; }
+        public ImagesDto Image { get; set; }
+
+        public int UserID { get; set; }
+        public UserDto User { get; set; }
+
+        public int ArtworkTypeID { get; set; }
+        public ArtworkTypeDto ArtworkType { get; set; }
     }
 }
