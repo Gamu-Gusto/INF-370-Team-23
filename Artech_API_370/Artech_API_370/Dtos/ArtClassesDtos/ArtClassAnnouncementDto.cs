@@ -9,5 +9,8 @@ namespace Artech_API_370.Dtos.ArtClassesDtos
     {
         public int ArtClassAnnouncementID { get; set; }
         public string ArtClassAnnouncementDescription { get; set; }
+
+        public int ArtClassID { get; set; }
+        public ArtClassDto ArtClass { get; set; }
     }
 }

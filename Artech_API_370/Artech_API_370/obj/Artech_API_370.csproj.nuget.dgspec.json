@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
+    "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
+    "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "projectUniqueName": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
         "projectName": "Artech_API_370",
-        "projectPath": "C:\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
-        "packagesPath": "C:\\Users\\Reagile Matloga\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
+        "projectPath": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "packagesPath": "C:\\Users\\Reinhardt Smit\\.nuget\\packages\\",
+        "outputPath": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Reagile Matloga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Reinhardt Smit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
