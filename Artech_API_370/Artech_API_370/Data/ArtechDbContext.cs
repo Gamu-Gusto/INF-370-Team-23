@@ -38,6 +38,7 @@ namespace Artech_API_370.Data
         public DbSet<MediumType> MediumType { get; set; }
         public DbSet<FrameColour> FrameColour { get; set; }
         public DbSet<ArtworkType> ArtworkType { get; set; }
+        public DbSet<ArtworkDimension> ArtworkDimension { get; set; }
 
         // Exhibition
         public DbSet<Exhibition> Exhibition { get; set; }
