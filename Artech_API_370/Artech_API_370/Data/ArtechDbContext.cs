@@ -34,6 +34,11 @@ namespace Artech_API_370.Data
         public DbSet<Invitation> Invitation { get; set; }
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
 
+        internal void SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
         // Artworks
         public DbSet<Artwork> Artwork { get; set; }
         public DbSet<SurfaceType> SurfaceType { get; set; }
