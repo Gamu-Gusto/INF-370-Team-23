@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
+    "C:\\Users\\Ravi\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {}
   },
   "projects": {
-    "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
+    "C:\\Users\\Ravi\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "projectUniqueName": "C:\\Users\\Ravi\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
         "projectName": "Artech_API_370",
-        "projectPath": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
-        "packagesPath": "C:\\Users\\Reinhardt Smit\\.nuget\\packages\\",
-        "outputPath": "C:\\2021 Coding\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
+        "projectPath": "C:\\Users\\Ravi\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\Artech_API_370.csproj",
+        "packagesPath": "C:\\Users\\Ravi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ravi\\Documents\\GitHub\\INF-370-Team-23\\Artech_API_370\\Artech_API_370\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Reinhardt Smit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ravi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,11 +22,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net50": {
             "projectReferences": {}
           }
         },
@@ -37,8 +36,7 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net50": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -49,25 +47,12 @@
               "version": "[5.6.3, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }

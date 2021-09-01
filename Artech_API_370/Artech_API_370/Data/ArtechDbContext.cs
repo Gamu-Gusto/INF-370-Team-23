@@ -72,5 +72,20 @@ namespace Artech_API_370.Data
         // Bookings
         public DbSet<Booking> Booking { get; set; }
         public DbSet<BookingNotification> BookingNotification { get; set; }
+
+        // Payment
+        public DbSet<Payment> Payment { get; set; }
+        public DbSet<PaymentType> PaymentType { get; set; }
+        public DbSet<PaymentStatus> PaymentStatus { get; set; }
+        public DbSet<Refund> Refund { get; set; }
+
+        // Images
+        public DbSet<Image> Image { get; set; }
+        public DbSet<ImageType> ImageType { get; set; }
+        public DbSet<UserTypePrivilege> UserTypePrivilege { get; set; }
+
+        // Bridge Entities
+        public DbSet<ExhibitionArtwork> ExhibitionArtwork { get; set; }
+        public DbSet<UserInvitation> UserInvitation { get; set; }
     }
 }
