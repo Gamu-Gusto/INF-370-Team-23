@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BinaryBrainsAPI.Dtos.BookingsDtos;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,8 +17,11 @@ namespace Artech_API_370.Dtos.PaymentsDtos
         public int PaymentStatusID { get; set; }
         public PaymentStatusDto PaymentStatus { get; set; }
 
+        public int RefundID { get; set; }
+        public RefundDto Refund { get; set; }
 
-        //public int BookingID { get; set; }
-        //public BookingDto Booking { get; set; }
+
+        public int BookingID { get; set; }
+        public BookingDto Booking { get; set; }
     }
 }

@@ -5,6 +5,7 @@ using Artech_API_370.Entities.Artworks;
 using Artech_API_370.Entities.Exhibitions;
 using Artech_API_370.Entities.Users;
 using Artech_API_370.Exhibitions;
+using BinaryBrainsAPI.Entities.Bookings;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -33,11 +34,19 @@ namespace Artech_API_370.Data
         public DbSet<Invitation> Invitation { get; set; }
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
 
+        internal void SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
+
         // Artworks
+        public DbSet<Artwork> Artwork { get; set; }
         public DbSet<SurfaceType> SurfaceType { get; set; }
         public DbSet<MediumType> MediumType { get; set; }
         public DbSet<FrameColour> FrameColour { get; set; }
         public DbSet<ArtworkType> ArtworkType { get; set; }
+        public DbSet<ArtworkDimension> ArtworkDimension { get; set; }
+        public DbSet<ArtworkStatus> ArtworkStatus { get; set; }
 
         // Exhibition
         public DbSet<Exhibition> Exhibition { get; set; }
@@ -59,5 +68,9 @@ namespace Artech_API_370.Data
         public DbSet<Province> Province { get; set; }
         public DbSet<Country> Country { get; set; }
         public DbSet<Privileges> Privileges { get; set; }
+
+        // Bookings
+        public DbSet<Booking> Booking { get; set; }
+        public DbSet<BookingNotification> BookingNotification { get; set; }
     }
 }
