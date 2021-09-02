@@ -25,6 +25,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using static System.Net.Mime.MediaTypeNames;
+using Image = Artech_API_370.Entities.Images.Image;
 
 namespace Artech_API_370
 {
@@ -106,7 +107,7 @@ namespace Artech_API_370
             services.AddScoped<IAppRepository<Refund>, RefundRepository>();
 
             // Images Repositories
-           // services.AddScoped<IAppRepository<Image>, ImagesRepository>();
+            services.AddScoped<IAppRepository<Image>, ImagesRepository>();
             services.AddScoped<IAppRepository<Image>, ImageRepository>();
             services.AddScoped<IAppRepository<ImageType>, ImageTypeRepository>();
 
