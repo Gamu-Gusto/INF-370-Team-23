@@ -58,3 +58,4 @@ C:\2021 Coding\GitHub\INF-370-Team-23\Artech_API_370\Artech_API_370\obj\Debug\ne
 C:\2021 Coding\GitHub\INF-370-Team-23\Artech_API_370\Artech_API_370\obj\Debug\net5.0\ref\Artech_API_370.dll
 C:\2021 Coding\GitHub\INF-370-Team-23\Artech_API_370\Artech_API_370\obj\Debug\net5.0\Artech_API_370.pdb
 C:\2021 Coding\GitHub\INF-370-Team-23\Artech_API_370\Artech_API_370\obj\Debug\net5.0\Artech_API_370.genruntimeconfig.cache
+C:\2021 Coding\GitHub\INF-370-Team-23\Artech_API_370\Artech_API_370\obj\Debug\net5.0\Artech_API_370.csproj.AssemblyReference.cache
