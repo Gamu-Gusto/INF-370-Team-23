@@ -107,7 +107,7 @@ namespace Artech_API_370
 
             // Images Repositories
            // services.AddScoped<IAppRepository<Image>, ImagesRepository>();
-           // services.AddScoped<IAppRepository<Image>, ImageRepository>();
+            services.AddScoped<IAppRepository<Image>, ImageRepository>();
             services.AddScoped<IAppRepository<ImageType>, ImageTypeRepository>();
 
 
