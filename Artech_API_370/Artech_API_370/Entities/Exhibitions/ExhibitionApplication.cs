@@ -1,5 +1,5 @@
-﻿using BinaryBrainsAPI.Entities.Images;
-using BinaryBrainsAPI.Entities.Users;
+﻿using Artech_API_370.Entities.Images;
+using Artech_API_370.Entities.Users;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Artech_API_370.Entities.Users;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

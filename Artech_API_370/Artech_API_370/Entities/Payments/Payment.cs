@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using BinaryBrainsAPI.Entities.Bookings;
 
 namespace Artech_API_370.Entities.Payments
 {

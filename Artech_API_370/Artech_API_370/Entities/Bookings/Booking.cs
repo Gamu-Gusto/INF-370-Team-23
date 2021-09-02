@@ -4,10 +4,8 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
-using BinaryBrainsAPI.Entities.ArtClasses;
-using BinaryBrainsAPI.Entities.Artworks;
-using BinaryBrainsAPI.Entities.Payments;
-using BinaryBrainsAPI.Entities.Users;
+using Artech_API_370.Entities.ArtClasses;
+using Artech_API_370.Entities.Users;
 
 namespace BinaryBrainsAPI.Entities.Bookings
 {
