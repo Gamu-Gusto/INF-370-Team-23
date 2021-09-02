@@ -3,6 +3,8 @@ using Artech_API_370.Entities.ArtClasses;
 using Artech_API_370.Entities.Artists;
 using Artech_API_370.Entities.Artworks;
 using Artech_API_370.Entities.Exhibitions;
+using Artech_API_370.Entities.Images;
+using Artech_API_370.Entities.Payments;
 using Artech_API_370.Entities.Users;
 using Artech_API_370.Exhibitions;
 using BinaryBrainsAPI.Entities.Bookings;
@@ -34,10 +36,6 @@ namespace Artech_API_370.Data
         public DbSet<Invitation> Invitation { get; set; }
         public DbSet<InvitationStatus> InvitationStatus { get; set; }
 
-        internal void SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
 
         // Artworks
         public DbSet<Artwork> Artwork { get; set; }
@@ -68,6 +66,8 @@ namespace Artech_API_370.Data
         public DbSet<Province> Province { get; set; }
         public DbSet<Country> Country { get; set; }
         public DbSet<Privileges> Privileges { get; set; }
+        public DbSet<Announcement> Announcement { get; set; }
+
 
         // Bookings
         public DbSet<Booking> Booking { get; set; }
@@ -82,10 +82,9 @@ namespace Artech_API_370.Data
         // Images
         public DbSet<Image> Image { get; set; }
         public DbSet<ImageType> ImageType { get; set; }
-        public DbSet<UserTypePrivilege> UserTypePrivilege { get; set; }
 
         // Bridge Entities
-        public DbSet<ExhibitionArtwork> ExhibitionArtwork { get; set; }
-        public DbSet<UserInvitation> UserInvitation { get; set; }
+        //public DbSet<ExhibitionArtwork> ExhibitionArtwork { get; set; }
+        //public DbSet<UserInvitation> UserInvitation { get; set; }
     }
 }

@@ -49,5 +49,10 @@ namespace Artech_API_370.Repository.ImagesRepositories
         {
             throw new NotImplementedException();
         }
+
+        void IAppRepository<Image>.Add(Image entity)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
