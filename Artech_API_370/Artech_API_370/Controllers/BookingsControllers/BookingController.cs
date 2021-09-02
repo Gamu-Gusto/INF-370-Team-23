@@ -1,5 +1,5 @@
+using Artech_API_370.Interfaces;
 using BinaryBrainsAPI.Entities.Bookings;
-using BinaryBrainsAPI.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;

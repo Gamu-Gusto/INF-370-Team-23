@@ -20,6 +20,7 @@ using BinaryBrainsAPI.Entities.Bookings;
 using BinaryBrainsAPI.Repository.BookingsRepositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -49,6 +50,9 @@ namespace Artech_API_370
                     .WithHeaders("Accept", "Content-Type", "Origin", "X-My-Header"));
                 services.AddMvc();
             });
+
+            services.AddDbContext<ArtechDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
 
             // User Repositories
             services.AddScoped<IAppRepository<User>, UsersRepository>();
